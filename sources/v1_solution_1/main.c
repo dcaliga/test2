@@ -24,9 +24,9 @@ static char const cvsid[] = "$Id: main.c,v 2.2 2005/07/08 18:02:31 jls Exp $";
 void subr (int64_t I0[], int64_t I1[], int64_t Out[], int num,
 	   int64_t *down_time, int64_t *compute_time, int64_t *up_time, 
            int mapnum);
+// this is my modified code
 
-
-int main (int argc, char *argv[]) {
+int cmain (int argc, char *argv[]) {
     FILE *res_map, *res_cpu;
     int i, num;
     int64_t *A, *B, *C;
